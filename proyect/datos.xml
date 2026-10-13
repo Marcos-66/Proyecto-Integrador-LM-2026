@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--Este archivo contiene los todos los apartados de index.html,a demas de sus listas-->
-<propietario>  
+<Marcos>  
 
     <Apartado id="001" Contenido="Presentación">
         <titulo>¡Bienvenido a SafeZone!</titulo>
@@ -35,4 +35,4 @@
         <Formato>Enlace</Formato>
     </Apartado> 
 
-</propietario>
+</Marcos>
