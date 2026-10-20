@@ -1,3 +1,5 @@
+Palabra del día:
+Contexto 
 
 # Proyecto Integrador: Especificaciones y Estructura
 
