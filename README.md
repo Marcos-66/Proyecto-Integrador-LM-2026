@@ -51,3 +51,13 @@ El archivo de datos se ha diseñado siguiendo estrictamente las reglas de un doc
 
 ## 6. Trabajo Realizado en esta Entrega (Reto 4)
 En esta primera fase del proyecto integrador, se ha establecido la arquitectura inicial del repositorio en GitHub. Se ha completado el diseño visual e informativo básico en la página de inicio en HTML y se ha mapeado con éxito su correspondiente réplica de almacenamiento de información en formato XML, verificando la ausencia de errores de sintaxis y anidamiento en el panel de problemas del entorno de desarrollo.
+
+
+# document.compatMode
+'CSS1Compat'
+Sginifica que la página incluye <!DOCTYPE html> en la primera linea
+
+# 3 cosas que me faltan:
+Metadatos
+Jerarquía de títulos
+Bloques
