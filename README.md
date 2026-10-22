@@ -57,7 +57,7 @@ En esta primera fase del proyecto integrador, se ha establecido la arquitectura 
 
 # document.compatMode
 'CSS1Compat'
-Sginifica que la página incluye <!DOCTYPE html> en la primera linea
+Sginifica que la página incluye <!DOCTYPE html> en la primera linea.
 
 # 3 cosas que me faltan:
 Metadatos
