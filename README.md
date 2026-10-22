@@ -1,6 +1,3 @@
-Palabra del día:
-Contexto 
-
 # Proyecto Integrador: Especificaciones y Estructura
 
 Este repositorio contiene la entrega inicial del proyecto para la asignatura **Lenguajes de Marcas**. El objetivo es construir un sitio web evolutivo que integrará tecnologías web a lo largo del curso, partiendo de una base de marcado estructurado en HTML5 y almacenamiento de datos semánticos en XML.
@@ -20,7 +17,7 @@ aumentar mis conocimientos, creando algo útil para la sociedad.
 ---
 
 ## 2. Control de Asistencia (Reto 1)
-* **Palabra del día:** Meta
+* **Palabra del día:**  Contexto 
 
 ---
 
