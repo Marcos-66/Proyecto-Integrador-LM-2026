@@ -72,3 +72,11 @@ Bloques
 |sos.html             |Boton SOS                                        |Info de la caracteristica del boton SOS.                        |
 |interfaz.html        |Personalización de la interfaz                   |Info de la caracteristica de personalización de la interfaz.    |
 |chats.html           |Posibilidad de crear chats y realizar llamadas   |Info de la caracteristica de la creación de chats y llamadas.   |
+
+## UD3: Estucctura HTML
+Errores: 
+En el fichero de datos.html me he equivocado en algunos campso y no los he puesto correctamente.
+Ademas en el index.html no he anidado bien algunos campos como <p> o <br>
+
+Que he realizado: 
+En este trabajo he actualizado mi página web añadiendole más contenido gracias al temario que se nos a estado mostrando en clase un ejemplo de esto seria los <blockquote> o los <div> entre otros.
