@@ -52,11 +52,23 @@ El archivo de datos se ha diseñado siguiendo estrictamente las reglas de un doc
 En esta primera fase del proyecto integrador, se ha establecido la arquitectura inicial del repositorio en GitHub. Se ha completado el diseño visual e informativo básico en la página de inicio en HTML y se ha mapeado con éxito su correspondiente réplica de almacenamiento de información en formato XML, verificando la ausencia de errores de sintaxis y anidamiento en el panel de problemas del entorno de desarrollo.
 
 
-# document.compatMode
+## document.compatMode
 'CSS1Compat'
 Sginifica que la página incluye <!DOCTYPE html> en la primera linea.
 
-# 3 cosas que me faltan:
+## 3 cosas que me faltan:
 Metadatos
 Jerarquía de títulos
 Bloques
+
+## Mapa del sitio
+|Fichero              |Title                                            |Que contiene                                                    |
+|---------------------|-------------------------------------------------|----------------------------------------------------------------|
+|index.html           |Safezone                                         |Portada: bienvenida, características, funcionamientos, ventajas.|
+|datos.html           |Datos de la página                               |Contenido de datos.xml                                          |
+|rastreo.html         |Rastreo a tiempo real                            |Info de la caracteristica de rastreo.                           |
+|notificacion.html    |Notificaciones de seguridad y alertas            |Info de la caracteristica de notificaciones y alertas.          |
+|mapa.html            |Mapa interactivo                                 |Info de la caracteristica del mapa interactivo.                 |
+|sos.html             |Boton SOS                                        |Info de la caracteristica del boton SOS.                        |
+|interfaz.html        |Personalización de la interfaz                   |Info de la caracteristica de personalización de la interfaz.    |
+|chats.html           |Posibilidad de crear chats y realizar llamadas   |Info de la caracteristica de la creación de chats y llamadas.   |
