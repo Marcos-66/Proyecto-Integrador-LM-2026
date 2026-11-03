@@ -76,7 +76,7 @@ Bloques
 ## UD3: Estucctura HTML
 Errores: 
 En el fichero de datos.html me he equivocado en algunos campso y no los he puesto correctamente.
-Ademas en el index.html no he anidado bien algunos campos como <p> o <br>
+Ademas en el index.html no he anidado bien algunos campos como p o br
 
 Que he realizado: 
-En este trabajo he actualizado mi página web añadiendole más contenido gracias al temario que se nos a estado mostrando en clase un ejemplo de esto seria los <blockquote> o los <div> entre otros.
+En este trabajo he actualizado mi página web añadiendole más contenido gracias al temario que se nos a estado mostrando en clase un ejemplo de esto seria los blockquote o los div entre otros.
