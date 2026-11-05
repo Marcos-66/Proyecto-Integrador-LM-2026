@@ -17,7 +17,7 @@ aumentar mis conocimientos, creando algo útil para la sociedad.
 ---
 
 ## 2. Control de Asistencia (Reto 1)
-* **Palabra del día:**  Dia
+* **Palabra del día:**  dia
 
 ---
 
@@ -52,7 +52,7 @@ El archivo de datos se ha diseñado siguiendo estrictamente las reglas de un doc
 En esta primera fase del proyecto integrador, se ha establecido la arquitectura inicial del repositorio en GitHub. Se ha completado el diseño visual e informativo básico en la página de inicio en HTML y se ha mapeado con éxito su correspondiente réplica de almacenamiento de información en formato XML, verificando la ausencia de errores de sintaxis y anidamiento en el panel de problemas del entorno de desarrollo.
 
 
-## document.compatMode
+## document.compatMode:
 'CSS1Compat'
 Sginifica que la página incluye <!DOCTYPE html> en la primera linea.
 
@@ -61,7 +61,7 @@ Metadatos
 Jerarquía de títulos
 Bloques
 
-## Mapa del sitio
+## Mapa del sitio:
 |Fichero              |Title                                            |Que contiene                                                    |
 |---------------------|-------------------------------------------------|----------------------------------------------------------------|
 |index.html           |Safezone                                         |Portada: bienvenida, características, funcionamientos, ventajas.|
@@ -73,7 +73,7 @@ Bloques
 |interfaz.html        |Personalización de la interfaz                   |Info de la caracteristica de personalización de la interfaz.    |
 |chats.html           |Posibilidad de crear chats y realizar llamadas   |Info de la caracteristica de la creación de chats y llamadas.   |
 
-## UD3: Estucctura HTML
+## UD3: Estucctura HTML:
 Errores: 
 En el fichero de datos.html me he equivocado en algunos campso y no los he puesto correctamente.
 Ademas en el index.html no he anidado bien algunos campos como p o br
@@ -81,7 +81,7 @@ Ademas en el index.html no he anidado bien algunos campos como p o br
 Que he realizado: 
 En este trabajo he actualizado mi página web añadiendole más contenido gracias al temario que se nos a estado mostrando en clase un ejemplo de esto seria los blockquote o los div entre otros.
 
-## UD5: Tablas y formularios
+## UD5: Tablas y formularios:
 
 En la página "mapa.html" crearé una tabla la cual tendra como contenido las diferentes utilidades del mapa y las descripciones de estas.
 
