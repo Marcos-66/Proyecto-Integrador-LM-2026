@@ -91,3 +91,16 @@ El formulario servira a modo de de contacto.
 ### URL del apartado 4: Reto 3
 
 http://127.0.0.1:5500/proyect/contacto.html#
+
+###### Errores
+
+Espacio : No habia un espacio entre el "1" y autofocus. Metí un espacio entre medias.
+
+Valor por defecto: En la parte de los opcion value me daba error debido a que no tenia un valor por defecto. Añadi el valor y le puse el selected.
+
+### Que he hecho en esta unidad:
+
+En esta unidad he aprendido a crear tablas de datos y formularios, 
+con esto todas sus etiquetas como th, td, tr, tbody, thead, tfoot. En el caso del 
+formulario hay muchas más etiquetas como fieldset, input type, option value y muchos más.
+Este tema es una de los más complejos hasta el momento por la gran cantidad de nuevas funciones
