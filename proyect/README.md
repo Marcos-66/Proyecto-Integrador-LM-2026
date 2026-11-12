@@ -72,6 +72,7 @@ Bloques
 |sos.html             |Boton SOS                                        |Info de la caracteristica del boton SOS.                        |
 |interfaz.html        |Personalización de la interfaz                   |Info de la caracteristica de personalización de la interfaz.    |
 |chats.html           |Posibilidad de crear chats y realizar llamadas   |Info de la caracteristica de la creación de chats y llamadas.   |
+|contacto.html        |Contacto                                         |Formulario para ver los gustos, fijaciones y dudas del cliente  |
 
 ## UD3: Estucctura HTML:
 Errores: 
@@ -86,3 +87,7 @@ En este trabajo he actualizado mi página web añadiendole más contenido gracia
 En la página "mapa.html" crearé una tabla la cual tendra como contenido las diferentes utilidades del mapa y las descripciones de estas.
 
 El formulario servira a modo de de contacto.
+
+### URL del apartado 4: Reto 3
+
+http://127.0.0.1:5500/proyect/contacto.html#
