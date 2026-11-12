@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | SafeZone</title>
+    <meta name="description" content="Contáctanos para más información sobre SafeZone.">
+    <meta name="keywords" content="Safezone, contacto, información">
+    <meta name="author" content="Marcos Carmona Cáceres">
+</head>
+<body>
+    <!-- NAV: Este será el formulario -->
+     <div>
+        <h1>Formulario de contactos</h1>
+     </div>
+     <div>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Telefono fijo:(623 23 44 56)</legend>
+
+                <label for="Nombre" >Nombre:</label>
+                <input type="text" id="Nombre" name="Nombre" required minlength="1"autofocus placeholder="Tu nombre"><br><br>
+
+                <label for="Correo" >Correo electrónico:</label>
+                <input type="email" id="Correo" name="Correo" required minlength="5" maxlength="100" placeholder="user@gmail.com"><br><br>
+               
+                <label for="Telefono" >Telefono de contacto:</label>
+                <input type="tel" id="Telefono" name="Telefono" required maxlength="15"><br><br>
+            </fieldset>
+            <fieldset>
+               <legend>Correo de contacto: info@safezone.com</legend>
+            <div>
+                <label for="motivo">Motivo de contacto:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="Información">Información sobre el servicio/planes</option>
+                    <option value="Soporte" selected>Soporte técnico</option>
+                    <option value="Facturación">Facturación</option>
+                    <option value="Otros">Otros</option>     
+                </select>
+            </div>
+            <div>
+                <p>¿Qué función es la que te gusta más?: </p>
+                <input type="checkbox" id="func_rastreo" name="funciones_interes" value="rastreo" checked>
+                <label for ="func_rastreo">Rastreo</label>
+
+                <input type="checkbox" id="func_zonas" name="funciones_interes" value="zonas">
+                <label for ="func_zonas">Zonas seguras/peligrosas</label>
+
+                <input type="checkbox" id="func_sos" name="funciones_interes" value="sos">
+                <label for ="func_sos">Botón SOS</label>
+            </div>
+
+            <div>
+                <p>¿Cuantos niños serán registrados en tu cuenta?: </p>
+
+                <input type="radio" id="ni_1" name="num_niños" value="1">
+                <label for ="ni_1">1</label>
+
+                <input type="radio" id="ni_2" name="num_niños" value="2">
+                <label for ="ni_2">2</label>
+
+                <input type="radio" id="ni_3" name="num_niños" value="3">
+                <label for ="ni_3">3</label>
+
+                <input type="radio" id="ni_4+" name="num_niños" value="4+">
+                <label for ="ni_4+">4 o más</label>
+            </div>
+
+            <div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required minlength="1" maxlength="500" placeholder="Escriba aquí su mensaje"></textarea>
+            </div>
+            </fieldset>
+
+            <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            </div>
+        </form>
+        </div>
+           
