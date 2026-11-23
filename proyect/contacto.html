@@ -9,15 +9,40 @@
     <meta name="author" content="marcos-66">
 </head>
 <body>
+    <header>
     <!-- NAV: Este será el formulario -->
-     <div>
         <h1>Formulario de contactos</h1>
-     </div>
-     <div>
+        <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="interfaz.html">Interfaz</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="datos.html">Datos</a></li>
+      <li><a href="chats.html">Chats</a></li>
+      <li><a href="mapa.html">Mapa interactivo</a></li>
+      <li><a href="notificacion.html">Notificaciones</a></li>
+      <li><a href="sos.html">Botón SOS</a></li>
+      <li><a href="rastreo.html">Rastreo</a></li>
+    </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+             <h2>Canales de atención y estado del servicio</h2>
+
+        <article>
+            <h3>Disponibilidad del soporte tecnico</h3>
+        <label for="carga-soporte">Carga actual de soporte:</label>
+        <progress id="carga-soporte" value="25" max="100">25% de optimización</progress>
+        </article>
+        </section>
+        <section>
         <form action="#" method="post">
+            <article>
+                <h3>Datos personales</h3>
             <fieldset>
                 <legend>Telefono fijo:(623 23 44 56)</legend>
-
                 <label for="Nombre" >Nombre:</label>
                 <input type="text" id="Nombre" name="Nombre" required minlength="1" autofocus placeholder="Tu nombre"><br><br>
 
@@ -26,10 +51,18 @@
                
                 <label for="Telefono" >Telefono de contacto:</label>
                 <input type="tel" id="Telefono" name="Telefono" required maxlength="15"><br><br>
+
+                 <label for="fecha_consulta" >Fecha preferente de contacto:</label>
+                <input type="date" id="fecha_consulta" name="fecha_consulta" required><br><br>
+
+                <label for="codigo_postal">Código postal:</label>
+                <input type="text" id="codigo_postal" name="codigo_postal" required pattern="[0-9]{5}" title="Introduce un código postal de 5 dígitos validos(ej. 20056)"><br><br>
             </fieldset>
+        </article>
+        <article>
             <fieldset>
                <legend>Correo de contacto: info@safezone.com</legend>
-            <div>
+            
                 <label for="motivo">Motivo de contacto:</label>
                 <select id="motivo" name="motivo" required>
                     <option value="" disabled selected>Seleccione una opción</option>
@@ -38,8 +71,14 @@
                     <option value="Facturación">Facturación</option>
                     <option value="Otros">Otros</option>     
                 </select>
-            </div>
-            <div>
+                <br><br>
+           
+                <label for="num_ninos">Número de niños que serán registrados:</label>
+                <input type="number" id="num_ninos" name="num_ninos" min="1" max="10" required><br><br>
+
+                <label for="nivel_urgencia">Nivel de urgencia de la consulta:</label>
+                <input type="range" id="nivel_urgencia" name="nivel_urgencia" min="1" max="5" step="1" value="3"><br><br>
+            
                 <p>¿Qué función es la que te gusta más?: </p>
                 <input type="checkbox" id="func_rastreo" name="funciones_interes" value="rastreo" checked>
                 <label for ="func_rastreo">Rastreo</label>
@@ -49,9 +88,7 @@
 
                 <input type="checkbox" id="func_sos" name="funciones_interes" value="sos">
                 <label for ="func_sos">Botón SOS</label>
-            </div>
-
-            <div>
+            
                 <p>¿Cuantos niños serán registrados en tu cuenta?: </p>
 
                 <input type="radio" id="ni_1" name="num_niños" value="1">
@@ -65,18 +102,27 @@
 
                 <input type="radio" id="ni_4+" name="num_niños" value="4+">
                 <label for ="ni_4+">4 o más</label>
-            </div>
 
-            <div>
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" name="mensaje" required minlength="1" maxlength="500" placeholder="Escriba aquí su mensaje"></textarea>
-            </div>
             </fieldset>
+            </article>
 
-            <div>
             <button type="submit">Enviar</button>
             <button type="reset">Borrar</button>
-            </div>
         </form>
-        </div>
+    </section>
+    </main>
+
+    <aside>
+        <h3>Horario de atención</h3>
+        <p>Lunes a viernes: 9:00 - 20:00</p>
+    </aside>
+
+     <footer>
+    <p id="firma-marcos-66">© 2026 marcos-66</p>
+    </footer>
+
+    </body>
+</html>
            
