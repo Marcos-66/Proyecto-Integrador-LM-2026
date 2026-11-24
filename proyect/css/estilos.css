@@ -6,3 +6,24 @@ body {
     color:#222
 }
 
+header{
+    background-color:#1b4965;
+    color:#ffffff;
+    text-align:center;
+    padding:20px;
+}
+
+main , aside{
+    background-color:#1b4965;
+    margin:20px;
+    max-width:900px;
+    color:#ffffff;
+}
+
+footer{
+    background-color:#1b4965;
+    margin:20px;
+    padding:20px;
+    color:#ffffff;
+}
+
