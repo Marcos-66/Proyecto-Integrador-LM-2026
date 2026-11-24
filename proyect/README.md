@@ -108,3 +108,9 @@ Este tema es una de los más complejos hasta el momento por la gran cantidad de 
 ## UD 6-7: HTML5 semántico y CSS en mi proyecto web
 
 Implementare nuevas etiquetas para poder optimizar y agrandar mi página tanto de index.html como de contacto.html(ademas de agregarle más campos a este último).
+
+### Que he hecho en esta unidad:
+
+En esta unidad he optimizado mi página index y mi página de contacto;
+para ello he tenido que cambiar algunas etiquetas de anteriores temas que eran obsoletas por unas que si son más usadas algunos ejemplos serian: section o article. Ademas, tambien he añadido algunas imagenes y videos dentro de la página index.
+Por ultimo he realizado un pequeño archivo css el cual tiene lo basico de las etiquetas body, header, main, aside y footer.
