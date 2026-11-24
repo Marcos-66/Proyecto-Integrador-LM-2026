@@ -104,3 +104,7 @@ En esta unidad he aprendido a crear tablas de datos y formularios,
 con esto todas sus etiquetas como th, td, tr, tbody, thead, tfoot. En el caso del 
 formulario hay muchas más etiquetas como fieldset, input type, option value y muchos más.
 Este tema es una de los más complejos hasta el momento por la gran cantidad de nuevas funciones
+
+## UD 6-7: HTML5 semántico y CSS en mi proyecto web
+
+Implementare nuevas etiquetas para poder optimizar y agrandar mi página tanto de index.html como de contacto.html(ademas de agregarle más campos a este último).
